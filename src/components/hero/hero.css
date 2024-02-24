@@ -1,0 +1,91 @@
+.hero{
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    margin: 0 auto;
+   
+}
+.hero .textContainer{
+    display: flex;
+    height: 100%;
+    gap: 20px;
+    width: 50%;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero .textContainer h2{
+font-size: 30px;
+color: rebeccapurple;
+letter-spacing: 10px;
+}
+.hero .textContainer h1{
+font-size: 88px;
+}
+.hero .scrollimg{
+    width: 50px;
+    background-color: initial;
+}
+.hero .buttons {
+display: flex;
+gap: 20px;
+
+}
+.hero .buttons button{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .2s linear;
+}
+.hero .buttons button a{
+    padding: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .2s linear;
+}
+
+.imageContainer{
+   overflow: hidden; 
+   z-index: 2;
+}
+.imageContainer .bounce{
+    position: relative;
+    animation: drop 2s ease-in-out infinite;
+    animation-delay: 0s;
+  animation-delay: 0.5s;
+}
+@keyframes drop {
+    0%{
+        top: 15px;
+    }
+    50%{
+        top: 0;
+    }
+    100%{
+        top: 15px;
+    }
+}
+.slidingText{
+    font-size: 40vh;
+    position: absolute;
+    bottom: -80px;
+    white-space: nowrap;
+    z-index: 0;
+    color: #ffffff09;
+    font-weight: 500;
+    width: 50%;
+}
