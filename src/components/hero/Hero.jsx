@@ -56,7 +56,7 @@ function Hero() {
                     I Am a front-end Web Developer
                 </motion.div>
                 <motion.div className="imageContainer">
-                    <motion.img className="bounce" src="/blob/main/public/me1.png" alt=""/>
+                    <motion.img className="bounce" src="public/me1.png" alt=""/>
                 </motion.div>
             </div>
         </div>
