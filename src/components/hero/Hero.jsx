@@ -50,13 +50,13 @@ function Hero() {
                         <motion.button whileHover={{background:"white",color: "black"}} variants={textVariants}  ><a href="#Contact">Contact me</a></motion.button>
                     </motion.div>
                     
-                    <motion.img className="scrollimg" variants={textVariants} animate="scrollButton" src="react-portfolio\public\mouse-cursor.png" alt="" />
+                    <motion.img className="scrollimg" variants={textVariants} animate="scrollButton" src="/public/mouse-cursor.png" alt="" />
                 </motion.div>
                 <motion.div className="slidingText" variants={slidingVariants} initial="initial" animate="animate">
                     I Am a front-end Web Developer
                 </motion.div>
                 <motion.div className="imageContainer">
-                    <motion.img className="bounce" src="react-portfolio\public\me1.png" alt="me"/>
+                    <motion.img className="bounce" src="/public/me1.png" alt="me"/>
                 </motion.div>
             </div>
         </div>
