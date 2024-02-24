@@ -31,7 +31,7 @@ function Services() {
         </motion.div>
         <motion.div className="titleContainer" variants={varients} >
             <div className="title">
-                <img src=".\react-portfolio\public\people.jpg" alt="" />
+                <img src="\public\people.jpg" alt="" />
                 <motion.h1><motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas</motion.h1>
             </div>
             <div className="title">
