@@ -6,25 +6,25 @@ const item = [
     {
         id: 1,
         title: "react-project",
-        img: "./public/1.jpg",
+        img:  "react-portfolio\\public\\PRO1.jpg",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptate inventore maiores similique, sapiente minima molestiae placeat odio. Repellat expedita sit possimus neque eius modi alias harum, nostrum perspiciatis fugit."
     },
     {
         id: 2,
         title: "html project",
-        img: "./public/2.jpg",
+        img: "react-portfolio\\public\\PRO2.jpg",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptate inventore maiores similique, sapiente minima molestiae placeat odio. Repellat expedita sit possimus neque eius modi alias harum, nostrum perspiciatis fugit."
     },
     {
         id: 3,
         title: "scss tech",
-        img: "./public/3.jpg",
+        img: "react-portfolio\\public\\PRO3.jpg",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptate inventore maiores similique, sapiente minima molestiae placeat odio. Repellat expedita sit possimus neque eius modi alias harum, nostrum perspiciatis fugit."
     },
     {
         id: 4,
         title: "vanilla js",
-        img: "./public/4.jpg",
+        img: "react-portfolio\\public\\PRO4.jpg",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptate inventore maiores similique, sapiente minima molestiae placeat odio. Repellat expedita sit possimus neque eius modi alias harum, nostrum perspiciatis fugit."
     },
 
