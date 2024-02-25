@@ -46,17 +46,17 @@ function Hero() {
                         Front-end Web Developer
                     </motion.h1>
                     <motion.div variants={textVariants} className="buttons">
-                        <motion.button whileHover={{background:"white",color: "black"}} variants={textVariants}><a href="./public/my-resume.pdf">Resume</a></motion.button>
+                        <motion.button whileHover={{background:"white",color: "black"}} variants={textVariants}><a href="my-resume.pdf">Resume</a></motion.button>
                         <motion.button whileHover={{background:"white",color: "black"}} variants={textVariants}  ><a href="#Contact">Contact me</a></motion.button>
                     </motion.div>
                     
-                    <motion.img className="scrollimg" variants={textVariants} animate="scrollButton" src="/public/mouse-cursor.png" alt="" />
+                    <motion.img className="scrollimg" variants={textVariants} animate="scrollButton" src="mouse-cursor.png" alt="" />
                 </motion.div>
                 <motion.div className="slidingText" variants={slidingVariants} initial="initial" animate="animate">
                     I Am a front-end Web Developer
                 </motion.div>
                 <motion.div className="imageContainer">
-                    <motion.img className="bounce" src="/public/me1.png" alt=""/>
+                    <motion.img className="bounce" src="me1.png" alt=""/>
                 </motion.div>
             </div>
         </div>

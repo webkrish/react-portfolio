@@ -13,10 +13,10 @@ function Navbar() {
                     transition={{ duration: 0.5 }}
                     className='logo'>Portfolio</motion.span>
                 <div className="social">
-                    <a href="#"><img src='react-portfolio\public\social-facebook.png' alt="" /></a>
-                    <a href="#"><img src='react-portfolio\public\social-instagram.png' alt="" /></a>
-                    <a href="#"><img src='react-portfolio\public\social-tik-tok.png' alt="" /></a>
-                    <a href="#"><img src='react-portfolio\public\social-youtube.png' alt="" /></a>
+                    <a href="#"><img src='social-facebook.png' alt="" /></a>
+                    <a href="#"><img src='social-instagram.png' alt="" /></a>
+                    <a href="#"><img src='social-tik-tok.png' alt="" /></a>
+                    <a href="#"><img src='social-youtube.png' alt="" /></a>
                 </div>
             </div>
         </div>
