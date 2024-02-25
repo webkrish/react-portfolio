@@ -13,10 +13,11 @@ function Navbar() {
                     transition={{ duration: 0.5 }}
                     className='logo'>Portfolio</motion.span>
                 <div className="social">
-                    <a href="#"><img src='social-facebook.png' alt="" /></a>
-                    <a href="#"><img src='social-instagram.png' alt="" /></a>
-                    <a href="#"><img src='social-tik-tok.png' alt="" /></a>
-                    <a href="#"><img src='social-youtube.png' alt="" /></a>
+                    <a href="https://www.facebook.com/profile.php?id=100005249479261"><img src='social-facebook.png' alt="" /></a>
+                    <a href="https://www.instagram.com/krishnendutripathy/"><img src='social-instagram.png' alt="" /></a>
+                    <a href="https://wa.link/4e1hzf"><img src='social-tik-tok.png' alt="" /></a>
+                    <a href="https://www.linkedin.com/in/krishnendu-tripathy-641aa6226/"><img src='social-youtube.png' alt="" /></a>
+                    <a href="https://github.com/webkrish"><img src='git-hub.png' alt="" /></a>
                 </div>
             </div>
         </div>
