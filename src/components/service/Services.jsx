@@ -12,8 +12,8 @@ const varients = {
         y: 0,
         opacity: 1,
         transition: {
-            duration: 1,
-            staggerChildren: .5
+            duration: .5,
+            staggerChildren: .2
         }
     },
 }
@@ -36,7 +36,7 @@ function Services() {
             </div>
             <div className="title">
                 <motion.h1><motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.</motion.h1>
-                <button>WHAT WE DO?</button>
+                <button>WHAT I DO?</button>
             </div>
         </motion.div>
         <motion.div className="listContainer" variants={varients} >
@@ -57,7 +57,7 @@ function Services() {
             </motion.div>
             <motion.div className="box" whileHover={{background:"lightgrey",color:'black'}}>
                 <h2>Email & PDF Template</h2>
-                <p>I specialize in creating various email templates and GitHub and PDF templates. With my skills, I can efficiently design and customize multiple templates to suit your needs. </p>
+                <p>I specialize in creating various email templates and PDF templates. With my skills, I can efficiently design and customize multiple templates to suit your needs. </p>
                 <button><a href="#Contact">Contact Now</a></button>
             </motion.div>
         </motion.div>

@@ -1,5 +1,6 @@
 import "./hero.css"
 import { motion } from "framer-motion";
+
 const slidingVariants = {
     initial: {
         x: 0,

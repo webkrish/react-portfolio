@@ -25,6 +25,9 @@ section {
     height: 100vh;
     scroll-snap-align: center;
 }
+/* #About{
+    height: 100% !important;
+} */
 
 @media screen and (max-width: 1200px) {
     #Homepage .wrapper {

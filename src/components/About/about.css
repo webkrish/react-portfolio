@@ -1,0 +1,56 @@
+.about{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 50px 0;
+    overflow: hidden;
+    position: relative;
+}
+.about .box{
+    position: absolute;
+    top: 12%;
+    width: 500px;
+    height: 550px;
+    background: linear-gradient(180deg, rgba(180, 41, 255, 0.625) 0%, rgba(0, 183, 255, 0.636) 100%);
+    z-index: -1;
+    left: 20%;
+}
+.about .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.about .imageContent{
+    width: 35%;
+}
+.about .textContent{
+    width: 50%;
+    padding: 35px;
+    background: linear-gradient(180deg, #111132, #0c0c1d);
+}
+.about .textContent h1{
+    font-size: 38px;
+}
+.about .textContent p{
+    text-align: justify;
+    font-size: 18px;
+}
+.about .textContent a{
+    border: 2px solid white;
+    padding: 10px 25px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all .3s;
+}
+.about .textContent a:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
+.about .textContent h1 span{
+   color: orange;
+}
+.about .imageContent img{
+    width: 100%;
+}
