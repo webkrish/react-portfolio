@@ -1,11 +1,12 @@
-.about{
+.about {
     max-width: 1360px;
     margin: 0 auto;
     padding: 50px 0;
     overflow: hidden;
     position: relative;
 }
-.about .box{
+
+.about .box {
     position: absolute;
     top: 12%;
     width: 500px;
@@ -14,28 +15,36 @@
     z-index: -1;
     left: 20%;
 }
-.about .wrapper{
+
+.about .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
 }
-.about .imageContent{
+
+.about .imageContent {
     width: 35%;
 }
-.about .textContent{
+
+.about .textContent {
     width: 50%;
     padding: 35px;
-    background: linear-gradient(180deg, #111132, #0c0c1d);
+    -webkit-backdrop-filter: blur(11px);
+    backdrop-filter: blur(11px);
+    background: linear-gradient(180deg, #11113209, #0c0c1d);
 }
-.about .textContent h1{
+
+.about .textContent h1 {
     font-size: 38px;
 }
-.about .textContent p{
+
+.about .textContent p {
     text-align: justify;
     font-size: 18px;
 }
-.about .textContent a{
+
+.about .textContent a {
     border: 2px solid white;
     padding: 10px 25px;
     background-color: transparent;
@@ -43,14 +52,17 @@
     font-weight: 600;
     transition: all .3s;
 }
-.about .textContent a:hover{
+
+.about .textContent a:hover {
     border: 2px solid white;
     background-color: white;
     color: black;
 }
-.about .textContent h1 span{
-   color: orange;
+
+.about .textContent h1 span {
+    color: orange;
 }
-.about .imageContent img{
+
+.about .imageContent img {
     width: 100%;
 }

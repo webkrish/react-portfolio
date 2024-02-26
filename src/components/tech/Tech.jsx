@@ -1,6 +1,20 @@
 import "./tech.css"
 import { motion } from "framer-motion";
 
+const slidetext = {
+    initial: {
+        x: +500,
+        opacity: 0
+    },
+    animate: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            duration: .5,
+            staggerChildren: .3
+        }
+    },
+}
 
 const techs = [
     {
@@ -43,8 +57,8 @@ const techs = [
 
 function Tech() {
     return (
-        <div className="tech">
-            <h1>TECHNOLOGIES I AM <span>FAMILIER WITH</span></h1>
+        <motion.div className="tech" initial="initial" whileInView="animate">
+            <motion.h1 variants={slidetext}>TECHNOLOGIES I AM <span>FAMILIER WITH</span></motion.h1>
             <div className="three-sec">
                 {techs.map(techs => (
                         <div className="card" key={techs.id}>
@@ -54,7 +68,7 @@ function Tech() {
                         </div>
                     ))}
             </div>
-        </div>
+        </motion.div>
     )
 }
 
