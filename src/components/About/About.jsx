@@ -50,7 +50,7 @@ function About() {
         <div className='about'>
             <motion.div className="wrapper" variants={myVarients} initial="initial" whileInView="animate">
                 <motion.div className="imageContent" variants={myVarients}  >
-                    <img src="/about2.jpg" alt="" />
+                    <img src="about2.jpg" alt="" />
                 </motion.div>
                 <motion.div className="textContent" variants={myVarients} >
                     <motion.h1 variants={textVarients}>About <span>Me</span></motion.h1><br />
