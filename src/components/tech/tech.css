@@ -1,6 +1,7 @@
 .tech{
     max-width: 1360px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .tech h1{
     font-size: 40px;
@@ -10,12 +11,12 @@
 .tech h1 span{
     color: orange;
 }
-.three-sec{
+.card-sec{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.three-sec .card{
+.card-sec .card{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,12 +29,12 @@
     border: 1px solid white;
     border-radius: 15px;
 }
-.three-sec .card img{
+.card-sec .card img{
     width: 60px;
 }
-.three-sec .card h2{
+.card-sec .card h2{
     padding: 10px;
 }
-.three-sec .card p{
+.card-sec .card p{
     padding: 10px;
 }

@@ -1,7 +1,7 @@
 import "./tech.css"
 import { motion } from "framer-motion";
 
-const slidetext = {
+const slideText = {
     initial: {
         x: +500,
         opacity: 0
@@ -58,8 +58,8 @@ const techs = [
 function Tech() {
     return (
         <motion.div className="tech" initial="initial" whileInView="animate">
-            <motion.h1 variants={slidetext}>TECHNOLOGIES I AM <span>FAMILIER WITH</span></motion.h1>
-            <div className="three-sec">
+            <motion.h1 variants={slideText}>TECHNOLOGIES I AM <span>FAMILIER WITH</span></motion.h1>
+            <div className="card-sec">
                 {techs.map(techs => (
                         <div className="card" key={techs.id}>
                             <img src={techs.img} alt="" />

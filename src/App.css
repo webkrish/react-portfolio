@@ -25,6 +25,7 @@ section {
     height: 100vh;
     scroll-snap-align: center;
 }
+
 /* #About{
     height: 100% !important;
 } */
@@ -185,19 +186,43 @@ section {
     #Homepage .hero .buttons button {
         padding: 10px;
     }
-    #Services{
+    #About{
         height: 100% !important;
     }
+    .about .wrapper{
+        flex-direction: column;
+    }
+    .about .wrapper .textContent{
+        width: 95%;
+    }
+    .about .box{
+        top: auto !important;
+        left: auto !important;
+    }
+    #Tech{
+        height: 100% !important;
+        padding: 0 30px;
+    }
+    #Tech .card{
+        width: 45%;
+    }
+     #Services {
+        height: 100% !important;
+    }
+
     #Services .services .textContainer hr {
         width: 200px;
     }
+
     #Services .titleContainer {
         margin-top: 15px;
         padding: 0 30px;
     }
-    #Services .titleContainer .title{
+
+    #Services .titleContainer .title {
         gap: 20px;
     }
+
     #Services .titleContainer .title img {
         width: 150px;
         height: 60px;
@@ -212,104 +237,142 @@ section {
         height: 60px;
         font-size: 16px;
     }
+
     #Services .listContainer {
         flex-direction: column;
     }
-    #Portfolio .progress{
+
+    #Portfolio .progress {
         font-size: 25px;
     }
-    #Portfolio .container  .wrapper{
+
+    #Portfolio .container .wrapper {
         gap: 20px;
     }
-    #Portfolio .container .text-container{
+
+    #Portfolio .container .text-container {
         gap: 15px;
     }
-    #Portfolio .container .text-container h2{
+
+    #Portfolio .container .text-container h2 {
         font-size: 35px;
     }
-    #Portfolio .container .text-container p{
+
+    #Portfolio .container .text-container p {
         font-size: 16px;
     }
-    #Contact .contact{
+
+    #Contact .contact {
         gap: 20px;
     }
-    #Contact .contact .textContainer{
+
+    #Contact .contact .textContainer {
         gap: 15px;
     }
-    #Contact .contact .textContainer h1{
+
+    #Contact .contact .textContainer h1 {
         font-size: 35px;
     }
-    #Contact .contact .formContainer input, textarea {
+
+    #Contact .contact .formContainer input,
+    textarea {
         padding: 10px;
     }
 }
+
 @media screen and (max-width: 500px) {
-    #Homepage{
+    #Homepage {
         height: 100% !important;
     }
-    #Homepage .navbar .sidebar .bg{
+
+    #Homepage .navbar .sidebar .bg {
         width: 60%;
     }
-    #Homepage .sidebar .bg .links{
+
+    #Homepage .sidebar .bg .links {
         gap: 15px;
     }
-    #Homepage .sidebar .bg .links a{
+
+    #Homepage .sidebar .bg .links a {
         font-size: 25px;
     }
-    #Homepage .wrapper{
+
+    #Homepage .wrapper {
         padding: 0;
     }
-    #Homepage .hero h2{
+
+    #Homepage .hero h2 {
         font-size: 12px;
         letter-spacing: normal;
     }
-    #Homepage .hero h1{
+
+    #Homepage .hero h1 {
         font-size: 28px;
     }
-    #Homepage .hero .imageContainer{
+
+    #Homepage .hero .imageContainer {
         width: 60%;
     }
 
-
-    #Services .services{
+    .about .wrapper{
         transform: none !important;
     }
+    #Tech .card{
+        width: 95%;
+    }
+    #Tech .card-sec{
+       justify-content: center;
+    }
+
+    #Services .services {
+        transform: none !important;
+    }
+
     #Services .services .textContainer hr {
         width: 0px;
     }
+
     #Services .services .textContainer p {
         font-size: 14px;
         font-weight: 300;
     }
+
     #Services .titleContainer .title img {
         height: 45px;
     }
-    #Services .titleContainer .title  {
+
+    #Services .titleContainer .title {
         flex-direction: column;
     }
+
     #Services .titleContainer .title h1 {
         font-size: 35px;
     }
-    #Services .titleContainer .title button{
+
+    #Services .titleContainer .title button {
         height: 45px;
     }
 
 
-    #Portfolio .progress{
+    #Portfolio .progress {
         font-size: 18px;
         padding-top: calc(100vh - 80px);
         z-index: 3;
     }
-    #Portfolio .container .wrapper{
+
+    #Portfolio .container .wrapper {
         flex-direction: column;
         gap: 0;
     }
-    #Portfolio .container .text-container{
+
+    #Portfolio .container .text-container {
         transform: none !important;
     }
-    #Portfolio .container .text-container button{
+
+    #Portfolio .container .text-container button {
         z-index: 5;
     }
+
     #Portfolio .container .text-container {
         gap: 5px;
     }
@@ -320,14 +383,17 @@ section {
         height: 100%;
         padding-bottom: 20px;
     }
+
     #Contact .contact {
         gap: 20px;
         flex-direction: column;
     }
+
     #Contact .contact .formContainer {
         width: 100%;
     }
-    #Contact .contact .textContainer{
+
+    #Contact .contact .textContainer {
         padding-top: 90px;
     }
 
@@ -335,5 +401,5 @@ section {
         line-height: normal;
     }
 
-    
+
 }
