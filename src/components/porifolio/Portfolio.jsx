@@ -5,8 +5,9 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const item = [
     {
         id: 1,
-        title: "react-project",
-        img:  "PRO1.jpg",
+        title: "SCANZU",
+        img:  "1.png",
+        link:"https://webkrish.github.io/scanzu/",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptate inventore maiores similique, sapiente minima molestiae placeat odio. Repellat expedita sit possimus neque eius modi alias harum, nostrum perspiciatis fugit."
     },
     {
@@ -47,7 +48,7 @@ const Single = ({ item }) => {
                     <motion.div className="text-container" style={{ y }}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>See Demo</button>
+                        <button><a href={item.link}>See Demo</a></button>
                     </motion.div>
                 </div>
             </div>

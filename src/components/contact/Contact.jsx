@@ -55,11 +55,11 @@ function Contact() {
                 <motion.h1 variants={variants}>Let's work together</motion.h1>
                 <motion.div variants={variants} className="item">
                     <h2>Mail</h2>
-                    <span>hello@gmail.com</span>
+                    <span>krishnendutripathy337@gmail.com</span>
                 </motion.div>
                 <motion.div variants={variants} className="item">
                     <h2>Address</h2>
-                    <span>Hello street New York</span>
+                    <span>Bakalsa, Barati, Debra,<br /> Paschim Medinipur, WB-721136</span>
                 </motion.div>
                 <motion.div variants={variants} className="item">
                     <h2>Phone</h2>
