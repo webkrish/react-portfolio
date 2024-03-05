@@ -8,14 +8,14 @@ const item = [
         title: "SCANZU",
         img:  "1.png",
         link:"https://webkrish.github.io/scanzu/",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptate inventore maiores similique, sapiente minima molestiae placeat odio. Repellat expedita sit possimus neque eius modi alias harum, nostrum perspiciatis fugit."
+        desc: "Introducing Scanzu, a groundbreaking project developed by me for my company Dignitech. Leveraging HTML, CSS, Bootstrap, and JavaScript, I spearheaded the end-to-end creation of Scanzu for our company. This innovative solution seamlessly digitizes documents, enhancing workflow efficiency and productivity."
     },
     {
         id: 2,
         title: "ALI TOUR",
         img: "2.png",
         link:"https://webkrish.github.io/Ali-tour/",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptate inventore maiores similique, sapiente minima molestiae placeat odio. Repellat expedita sit possimus neque eius modi alias harum, nostrum perspiciatis fugit."
+        desc: "Introducing Ali-Tour, a dynamic project developed by me for my company Dignitech. Harnessing the power of HTML, CSS, Bootstrap, JavaScript, and Chart.js, Ali-Tour offers an immersive tour management solution. From itinerary planning to real-time analytics, elevate your travel experiences with Ali-Tour, meticulously crafted by our team for Dignitech."
     },
     {
         id: 3,
