@@ -12,8 +12,9 @@ const item = [
     },
     {
         id: 2,
-        title: "html project",
-        img: "PRO2.jpg",
+        title: "ALI TOUR",
+        img: "2.png",
+        link:"https://webkrish.github.io/Ali-tour/",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptate inventore maiores similique, sapiente minima molestiae placeat odio. Repellat expedita sit possimus neque eius modi alias harum, nostrum perspiciatis fugit."
     },
     {
