@@ -19,9 +19,10 @@ const item = [
     },
     {
         id: 3,
-        title: "scss tech",
-        img: "PRO3.jpg",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptate inventore maiores similique, sapiente minima molestiae placeat odio. Repellat expedita sit possimus neque eius modi alias harum, nostrum perspiciatis fugit."
+        title: "GCSRM",
+        img: "3.png",
+        link:"https://webkrish.github.io/GCSRM/",
+        desc: "Introducing GCSRM, a bespoke project meticulously crafted by Dignitech. Leveraging HTML, CSS, Bootstrap, and basic JS, GCSRM empowers businesses with comprehensive Customer Relationship Management. Seamlessly manage interactions, streamline workflows, and enhance customer satisfaction with GCSRM's intuitive interface and robust functionality."
     },
     {
         id: 4,
