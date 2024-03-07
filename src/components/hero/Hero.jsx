@@ -47,7 +47,7 @@ function Hero() {
                         Front-end Web Developer
                     </motion.h1>
                     <motion.div variants={textVariants} className="buttons">
-                        <motion.button whileHover={{background:"white",color: "black"}} variants={textVariants}><a href="my-resume.pdf">Resume</a></motion.button>
+                        <motion.button whileHover={{background:"white",color: "black"}} variants={textVariants}><a href="my-resume(u).pdf">Resume</a></motion.button>
                         <motion.button whileHover={{background:"white",color: "black"}} variants={textVariants}  ><a href="#Contact">Contact me</a></motion.button>
                     </motion.div>
                     
