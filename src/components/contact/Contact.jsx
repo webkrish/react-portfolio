@@ -84,8 +84,8 @@ function Contact() {
                 </motion.div>
                 <motion.form  ref={formref} onSubmit={sendEmail} initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }} transition={{ delay: 4, duration: 1 }} >
-                    <input type="text" required placeholder="Name" name="user_name" />
-                    <input type="email" required placeholder="Email" name="user_email" />
+                    <input type="text" required placeholder="Name" name="name" />
+                    <input type="email" required placeholder="Email" name="email" />
                     <textarea rows={8} placeholder="Massage" name="message" ></textarea>
                     <button type="submit" value="Send">Submit</button>
                     {
