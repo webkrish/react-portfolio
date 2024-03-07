@@ -4,6 +4,7 @@ height: 100px;
 .wrapper{
     max-width: 1360px;
     margin: auto;
+    padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;

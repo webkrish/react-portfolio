@@ -1,6 +1,7 @@
 .tech{
     max-width: 1360px;
     margin: 0 auto;
+    padding: 0 30px;
     overflow: hidden;
 }
 .tech h1{
