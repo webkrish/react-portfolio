@@ -26,9 +26,24 @@ const item = [
     },
     {
         id: 4,
-        title: "vanilla js",
-        img: "PRO4.jpg",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptate inventore maiores similique, sapiente minima molestiae placeat odio. Repellat expedita sit possimus neque eius modi alias harum, nostrum perspiciatis fugit."
+        title: "LMS",
+        img: "4.png",
+        link:"https://webkrish.github.io/my-lms/",
+        desc: "Introducing our latest LMS (Learning Management System) project, crafted with pure HTML, CSS, and basic JS. This intuitive platform empowers educators and learners alike with seamless navigation, interactive features, and a user-friendly interface. Revolutionize online learning with our bespoke LMS solution."
+    },
+    {
+        id: 5,
+        title: "bemarketing",
+        img: "5.png",
+        link:"https://webkrish.github.io/react-project/",
+        desc: "Introducing ReactifyMe, a dynamic marketing project crafted by yours truly. Leveraging the power of React, this platform delivers unparalleled interactivity and responsiveness. Seamlessly blending stunning design with intuitive functionality, ReactifyMe elevates brand engagement to new heights."
+    },
+    {
+        id: 6,
+        title: "SEOS",
+        img: "6.png",
+        link:"https://webkrish.github.io/seos/",
+        desc: "Presenting my latest SEO project for my portfolio, crafted with HTML, CSS, and GreenSock Animation Platform (GSAP). This dynamic website boasts smooth scrolling functionality, enhancing user experience while showcasing my SEO expertise. Explore the future of digital marketing with this innovative project."
     },
 
 ];
