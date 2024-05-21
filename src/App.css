@@ -25,6 +25,9 @@ section {
     height: 100vh;
     scroll-snap-align: center;
 }
+#About{
+    display: flex;
+}
 
 /* #About{
     height: 100% !important;
